@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="paneSet" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="547.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Settings">
+   <children>
+      <Text layoutX="130.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-stroke: black;" text="SETTINGS" textAlignment="CENTER" wrappingWidth="286.93670654296875">
+         <font>
+            <Font name="Verdana" size="40.0" />
+         </font>
+      </Text>
+      <Button layoutX="158.0" layoutY="253.0" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="48.0" prefWidth="238.0" style="-fx-background-color: black;" text="STOP MUSIC" textFill="#f2efef">
+         <font>
+            <Font name="Verdana" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="150.0" layoutY="350.0" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="48.0" prefWidth="246.0" style="-fx-background-color: black;" text="STOP SOUND" textFill="#f2eeee">
+         <font>
+            <Font name="Verdana" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="154.0" layoutY="167.0" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="48.0" prefWidth="246.0" style="-fx-background-color: black;" text=" LIGHT MODE" textFill="#f0ecec">
+         <font>
+            <Font name="Verdana" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="154.0" layoutY="452.0" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="48.0" prefWidth="238.0" style="-fx-background-color: black;" text="SELECT MUSIC" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="back3" accessibleRole="BUTTON" fitHeight="220.0" fitWidth="63.0" layoutX="44.0" layoutY="34.0" onMousePressed="#goBack3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="220.0" fitWidth="63.0" layoutX="435.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/CROP3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="91.0" layoutX="29.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/CROP3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
